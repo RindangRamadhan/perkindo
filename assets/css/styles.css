@@ -1,0 +1,24 @@
+/* custom style for navbar */
+.navbar > div.container-fluid > .navbar-brand {
+    height: initial !important;
+}
+
+.navbar ul.navbar-nav > .nav-item {
+    white-space: nowrap !important;
+}
+
+.navbar ul.navbar-nav > .active-link {
+    border-bottom: 2px solid #18405B;
+}
+
+.navbar .font-weight-bold {
+    font-weight: 1000 !important;
+}
+
+.navbar .form-inline {
+    flex-flow: row nowrap !important;
+}
+
+.navbar .form-inline .form-control {
+    background-image: none !important;
+}

@@ -5,10 +5,11 @@
 
 .navbar ul.navbar-nav > .nav-item {
     white-space: nowrap !important;
+    font-size: calc(1px + 0.7vw);
 }
 
 .navbar ul.navbar-nav > .active-link {
-    border-bottom: 2px solid #18405B;
+    border-bottom: 2px solid #18405b;
 }
 
 .navbar .font-weight-bold {
@@ -21,4 +22,66 @@
 
 .navbar .form-inline .form-control {
     background-image: none !important;
+}
+
+/* custom style for header */
+.container-overlay {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 5;
+}
+
+/* custom style for card slider anggota */
+.card-slider-title,
+.card-slider-subtitle {
+    text-align: center;
+    font-style: normal;
+    line-height: calc(30px + 1vw);
+    font-weight: 900;
+}
+
+.card-slider-title {
+    color: #18405b;
+    /* font-size: 86px; */
+    font-size: calc(1rem + 3vw);
+}
+
+.card-slider-subtitle {
+    color: black;
+    font-size: calc(0.3rem + 1.5vw);
+}
+
+.horizontal-line {
+    width: 100%;
+    border-bottom: 10px solid #18405b;
+}
+
+/* custom style for news */
+.img-zoom-hover img {
+    transition: all 1s ease-in-out;
+    height: 347px;
+    width: 100%;
+}
+.img-zoom-hover:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+/* custom style for mitra */
+.mitra-title {
+    font-size: calc(0.5rem + 1vw) !important;
+}
+
+.horizontal-line-2 {
+    border-bottom: 5px solid #18405b;
 }

@@ -17,16 +17,16 @@
         <!-- BEGIN Navbar -->
         <nav class="navbar navbar-expand-lg p-0">
             <div class="container-fluid p-0">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand mx-3" href="#">
                     <img class="img-fluid" src="./assets/img/perkindo.png" alt="Perkindo" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                <button class="navbar-toggler mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="offcanvas offcanvas-end flex-lg-row" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                     <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 p-2" style="background: rgba(0, 8, 255, 0.5); height: 116px">
                         <img class="img-fluid" src="./assets/img/perkindo.org.png" alt="Perkindo" />
-                        <span class="text-center text-uppercase fs-6 text-dark"><span class="font-weight-bold">cinta</span> (collaboartion, innovation, networking, trust, awarness)</span>
+                        <span class="text-center text-uppercase fs-6 text-dark" style="font-size: calc(1px + 0.8vw) !important;"><span class="font-weight-bold">cinta</span> (collaboartion, innovation, networking, trust, awarness)</span>
                     </div>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-grow-1 justify-content-around align-items-center p-2" style="background: rgba(255, 111, 0, 0.8); height: 116px">
                         <li class="nav-item active-link">
@@ -241,10 +241,568 @@
                     </div>
                 </div>
             </div>
+            <div class="row row-cols-4">
+                <div class="col p-0">
+                    <div class="container-overlay">
+                        <img src="./assets/img/2e72f5dbca313a95a614ac5562e7e1c7.jpeg" class="card-img" alt="..." />
+                        <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                            <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                <h1 class="text-uppercase" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Tentang Perkindo" data-bs-content-id="popover-tentang-perkindo">tentang perkindo</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0">
+                    <div class="container-overlay">
+                        <img src="./assets/img/b5a3817cd455efdf10315bb7563ad5b4.png" class="card-img" alt="..." />
+                        <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                            <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                <h1 class="text-uppercase" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Keanggotaan" data-bs-content-id="popover-keanggotaan">keanggotaan</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0">
+                    <div class="container-overlay">
+                        <img src="./assets/img/31f59146442a1f52aee41f4e78bfa7a4.png" class="card-img" alt="..." />
+                        <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                            <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                <h1 class="text-uppercase" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Sertifikasi" data-bs-content-id="popover-sertifikasi">sertifikasi</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-0">
+                    <div class="container-overlay">
+                        <img src="./assets/img/907f8cd2fa67826b29fef8d288a94a1a.jpeg" class="card-img" alt="..." />
+                        <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                            <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                <h1 class="text-uppercase" data-bs-toggle="popover" data-bs-placement="top" data-bs-title="Bisnis" data-bs-content-id="popover-bisnis">bisnis</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- END Header -->
 
+        <!-- BEGIN Anggota -->
+        <div class="container my-5">
+            <div id="slider-anggota" class="carousel slide p-0" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button class="bg-dark active" type="button" data-bs-target="#slider-anggota" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="bg-dark" type="button" data-bs-target="#slider-anggota" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="bg-dark" type="button" data-bs-target="#slider-anggota" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button class="bg-dark" type="button" data-bs-target="#slider-anggota" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button class="bg-dark" type="button" data-bs-target="#slider-anggota" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100 px-5 mx-lg-5 mb-3 mb-lg-0">
+                                            <h1 class="text-uppercase card-slider-title">perkindo</h1>
+                                            <h2 class="text-uppercase card-slider-subtitle">unggul berdaya saing</h2>
+                                            <div class="horizontal-line my-3 mb-4"></div>
+                                            <p class="fw-bold">
+                                                Konsultan adalah ujung tombak pembangunan mulai dari gagasan, rancang bangun, manajemen pelaksanaan dan pengawasan hingga evaluasi Keberhasilan pembangunan sangat ditentukan oleh konsultan
+                                                yang berkualitas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                            <img class="shadow rounded-4" src="./assets/img/0e7079b0650f7346d4f2a46351d9c7c9.jpeg" style="width: 80%; height: auto" />
+                                            <span class="fw-bold mt-2">IR. NUNUS NUGROHO AP, M.M, I.P.U.</span>
+                                            <span class="fw-bold">(Ketua Umum PERKINDO 2022 - 2027)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100 px-5 mx-lg-5 mb-3 mb-lg-0">
+                                            <h1 class="text-uppercase card-slider-title">perkindo</h1>
+                                            <h2 class="text-uppercase card-slider-subtitle">unggul berdaya saing</h2>
+                                            <div class="horizontal-line my-3 mb-4"></div>
+                                            <p class="fw-bold">
+                                                Konsultan adalah ujung tombak pembangunan mulai dari gagasan, rancang bangun, manajemen pelaksanaan dan pengawasan hingga evaluasi Keberhasilan pembangunan sangat ditentukan oleh konsultan
+                                                yang berkualitas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                            <img class="shadow rounded-4" src="./assets/img/0e7079b0650f7346d4f2a46351d9c7c9.jpeg" style="width: 80%; height: auto" />
+                                            <span class="fw-bold mt-2">IR. NUNUS NUGROHO AP, M.M, I.P.U.</span>
+                                            <span class="fw-bold">(Ketua Umum PERKINDO 2022 - 2027)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100 px-5 mx-lg-5 mb-3 mb-lg-0">
+                                            <h1 class="text-uppercase card-slider-title">perkindo</h1>
+                                            <h2 class="text-uppercase card-slider-subtitle">unggul berdaya saing</h2>
+                                            <div class="horizontal-line my-3 mb-4"></div>
+                                            <p class="fw-bold">
+                                                Konsultan adalah ujung tombak pembangunan mulai dari gagasan, rancang bangun, manajemen pelaksanaan dan pengawasan hingga evaluasi Keberhasilan pembangunan sangat ditentukan oleh konsultan
+                                                yang berkualitas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                            <img class="shadow rounded-4" src="./assets/img/0e7079b0650f7346d4f2a46351d9c7c9.jpeg" style="width: 80%; height: auto" />
+                                            <span class="fw-bold mt-2">IR. NUNUS NUGROHO AP, M.M, I.P.U.</span>
+                                            <span class="fw-bold">(Ketua Umum PERKINDO 2022 - 2027)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100 px-5 mx-lg-5 mb-3 mb-lg-0">
+                                            <h1 class="text-uppercase card-slider-title">perkindo</h1>
+                                            <h2 class="text-uppercase card-slider-subtitle">unggul berdaya saing</h2>
+                                            <div class="horizontal-line my-3 mb-4"></div>
+                                            <p class="fw-bold">
+                                                Konsultan adalah ujung tombak pembangunan mulai dari gagasan, rancang bangun, manajemen pelaksanaan dan pengawasan hingga evaluasi Keberhasilan pembangunan sangat ditentukan oleh konsultan
+                                                yang berkualitas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                            <img class="shadow rounded-4" src="./assets/img/0e7079b0650f7346d4f2a46351d9c7c9.jpeg" style="width: 80%; height: auto" />
+                                            <span class="fw-bold mt-2">IR. NUNUS NUGROHO AP, M.M, I.P.U.</span>
+                                            <span class="fw-bold">(Ketua Umum PERKINDO 2022 - 2027)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100 px-5 mx-lg-5 mb-3 mb-lg-0">
+                                            <h1 class="text-uppercase card-slider-title">perkindo</h1>
+                                            <h2 class="text-uppercase card-slider-subtitle">unggul berdaya saing</h2>
+                                            <div class="horizontal-line my-3 mb-4"></div>
+                                            <p class="fw-bold">
+                                                Konsultan adalah ujung tombak pembangunan mulai dari gagasan, rancang bangun, manajemen pelaksanaan dan pengawasan hingga evaluasi Keberhasilan pembangunan sangat ditentukan oleh konsultan
+                                                yang berkualitas
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+                                            <img class="shadow rounded-4" src="./assets/img/0e7079b0650f7346d4f2a46351d9c7c9.jpeg" style="width: 80%; height: auto" />
+                                            <span class="fw-bold mt-2">IR. NUNUS NUGROHO AP, M.M, I.P.U.</span>
+                                            <span class="fw-bold">(Ketua Umum PERKINDO 2022 - 2027)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#slider-anggota" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#slider-anggota" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- END Anggota -->
+
+        <!-- BEGIN News -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/497d4b4781b49762c3e1b67536ef4177.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">Field Trip Proyek Pembangunan Kereta Cepat Jakarta - Bandung (KCJB-KCIC)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/0afa829997b558a080ec5d9b1609b285.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">Selamat dan Sukses untuk MUSDA IV JABAR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/497d4b4781b49762c3e1b67536ef4177.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">Field Trip Proyek Pembangunan Kereta Cepat Jakarta - Bandung (KCJB-KCIC)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/0afa829997b558a080ec5d9b1609b285.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">Selamat dan Sukses untuk MUSDA IV JABAR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/9d1c7c19c8980bd30dd789e99fbe153d.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">RAKERDA IV DAN SEMINAR NASIONAL DPD PERSATUAN INDONESIA JAWA TENGAH</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                    <a class="text-dark" href="#">
+                        <div class="container-overlay img-zoom-hover">
+                            <img src="./assets/img/0afa829997b558a080ec5d9b1609b285.jpeg" alt="..." />
+                            <div class="content-overlay">
+                                <div class="row row-cols-2 h-100 m-0">
+                                    <div class="col p-0"></div>
+                                    <div class="col d-flex flex-column p-0" style="background: rgba(218, 219, 252, 0.5)">
+                                        <span class="text-uppercase fw-bold p-2 me-auto" style="background: #c1bdfa">news</span>
+                                        <div class="d-flex justify-content-center align-items-center h-100 p-3 text-left">
+                                            <p class="fw-bold">Selamat dan Sukses untuk MUSDA IV JABAR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- END News -->
+
+        <!-- BEGIN BSI Pic -->
+        <div class="container-fluid my-5 text-center">
+            <img class="img-fluid" src="./assets/img/bsi homepage.png" alt="bsi home" />
+        </div>
+        <!-- END BSI Pic -->
+
+        <!-- BEGIN Peulang Tender & Mitra Kerja -->
+        <div class="container-fluid mb-3">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex flex-column p-0 mt-3 mt-lg-0">
+                    <span class="text-uppercase fs-3 fw-bold me-auto horizontal-line-2 m-2">peluang tender</span>
+                    <div class="row w-100 m-0">
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/kementrian.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">kementrian</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/badan lembaga.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">badan lembaga</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/bumn.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">bumn</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/lembaga internasional.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">lembaga internasional / donor fund</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 d-flex flex-column p-0 mt-3 mt-lg-0">
+                    <div class="text-uppercase fs-3 fw-bold me-auto horizontal-line-2 m-2">mitra kerja</div>
+                    <div class="row w-100 m-0">
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/asosiasi.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">asosiasi bu / profesi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/pergruan.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">perguruan tinggi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/peraturan.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(255, 111, 0, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">peraturan</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3 p-0">
+                            <div class="container-overlay">
+                                <img src="./assets/img/refrensi.png" class="card-img" alt="..." />
+                                <div class="content-overlay" style="background: rgba(0, 8, 255, 0.5)">
+                                    <div class="d-flex justify-content-center align-items-center h-100 text-center">
+                                        <span class="text-uppercase fs-5 fw-bold text-light display-6">refrensi</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END Peulang Tender & Mitra Kerja -->
+
+        <!-- BEGIN Footer -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 mt-4">
+                    <div class="d-flex justify-content-around align-items-center">
+                        <img src="./assets/img/perkindo.png" alt="Perkindo" style="height: 166px; width: auto" />
+                        <h2 class="text-uppercase fw-bold">
+                            <a class="text-dark text-dark text-decoration-none" href="#">hubungi kami</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class="d-flex flex-column">
+                        <div class="row">
+                            <div class="col-1 pe-0 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="16" viewBox="0 0 11 16" fill="none">
+                                    <path
+                                        d="M5.33333 0C4.37333 0 3.48444 0.24 2.66667 0.719999C1.84889 1.2 1.2 1.84889 0.72 2.66667C0.24 3.48444 0 4.35556 0 5.28C0 6.20444 0.213333 7.07556 0.64 7.89333L5.06667 15.84C5.10222 15.9467 5.19111 16 5.33333 16C5.47556 16 5.56444 15.9467 5.6 15.84L10.0267 7.84C10.4533 7.05778 10.6667 6.20444 10.6667 5.28C10.6667 4.35556 10.4267 3.48444 9.94667 2.66667C9.46667 1.84889 8.81778 1.2 8 0.719999C7.18222 0.24 6.29333 0 5.33333 0ZM5.33333 8C4.58667 8 3.95556 7.74222 3.44 7.22667C2.92444 6.71111 2.66667 6.08 2.66667 5.33333C2.66667 4.58667 2.92444 3.95555 3.44 3.44C3.95556 2.92444 4.58667 2.66667 5.33333 2.66667C6.08 2.66667 6.71111 2.92444 7.22667 3.44C7.74222 3.95555 8 4.58667 8 5.33333C8 6.08 7.74222 6.71111 7.22667 7.22667C6.71111 7.74222 6.08 8 5.33333 8Z"
+                                        fill="black"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="col ps-0">
+                                <span class="fw-bold">Ruko Grand Pasar Minggu, Jl. Raya Rawa Bambu No. 88- X, RT.13, RW.05, Pasar Minggu, Jakarta Selatan – DKI Jakarta. Kode Pos : 12520</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 pe-0 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                                    <path
+                                        d="M16.5439 12.7067L14.3039 10.4667C14.055 10.2178 13.7528 10.0756 13.3972 10.04C13.0417 10.0044 12.7217 10.0756 12.4372 10.2533C12.1528 10.4311 11.9483 10.6978 11.8239 11.0533C11.6995 11.4089 11.4683 11.6756 11.1306 11.8533C10.7928 12.0311 10.4461 12.0844 10.0906 12.0133C9.55723 11.8711 8.98834 11.5778 8.3839 11.1333C7.77945 10.6889 7.25501 10.1644 6.81057 9.56C6.36612 8.95555 6.07279 8.38666 5.93057 7.85333C5.8239 7.49778 5.86834 7.14222 6.0639 6.78666C6.25946 6.43111 6.52612 6.2 6.8639 6.09333C7.20168 5.98666 7.46834 5.79111 7.6639 5.50666C7.85946 5.22222 7.93945 4.90222 7.9039 4.54666C7.86834 4.19111 7.70834 3.88889 7.4239 3.64L5.23723 1.4C4.91723 1.11555 4.5439 0.97333 4.11723 0.97333C3.69057 0.97333 3.33501 1.11555 3.05057 1.4L1.55723 2.89333C1.05945 3.42666 0.890566 4.20889 1.05057 5.24C1.21057 6.27111 1.68168 7.42666 2.4639 8.70666C3.24612 9.98666 4.25057 11.24 5.47723 12.4667C6.7039 13.6933 7.95723 14.6978 9.23723 15.48C10.5172 16.2622 11.6728 16.7422 12.7039 16.92C13.735 17.0978 14.4995 16.92 14.9972 16.3867L16.5439 14.8933C16.8283 14.5733 16.9706 14.2 16.9706 13.7733C16.9706 13.3467 16.8283 12.9911 16.5439 12.7067Z"
+                                        fill="black"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="col ps-0">
+                                <span class="fw-bold">(021) 27806899</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1 pe-0 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <path
+                                        d="M14.6133 0.919987H1.38667C0.995556 0.919987 0.666667 1.05332 0.4 1.31999C0.133333 1.58665 0 1.91554 0 2.30665V11.6933C0 12.0844 0.133333 12.4133 0.4 12.68C0.666667 12.9467 0.995556 13.08 1.38667 13.08H14.6133C15.0044 13.08 15.3333 12.9467 15.6 12.68C15.8667 12.4133 16 12.0844 16 11.6933V2.30665C16 1.91554 15.8667 1.58665 15.6 1.31999C15.3333 1.05332 15.0044 0.919987 14.6133 0.919987ZM14.4 1.82665L8.05333 8.22665L1.6 1.82665H14.4ZM0.96 11.48V2.51999L5.44 6.99999L0.96 11.48ZM1.6 12.1733L6.13333 7.63999L7.68 9.18665C7.78667 9.29332 7.90222 9.34665 8.02667 9.34665C8.15111 9.34665 8.26667 9.29332 8.37333 9.18665L9.92 7.63999L14.4 12.1733H1.6ZM15.04 11.48L10.56 6.99999L15.04 2.51999V11.48Z"
+                                        fill="black"
+                                    />
+                                </svg>
+                            </div>
+                            <div class="col ps-0">
+                                <span class="fw-bold">dpp_perkindo@yahoo.co.id</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col p-0">
+                    <div class="w-100 fw-lighter text-light text-center p-1" style="background: #242424">Copyrights © <span id="current-year"></span>. PERKINDO. All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+        <!-- END Footer -->
+
+        <!-- BEGIN Popover Content -->
+        <div id="popover-tentang-perkindo" class="d-none">
+            <div class="list-group list-group-flush">
+                <a class="list-group-item" href="">Sejarah Perkindo</a>
+                <a class="list-group-item" href=""> Kode Etik Perkindo</a>
+                <a class="list-group-item" href=""> Mars Perkindo</a>
+                <a class="list-group-item" href=""> hymne Perkindo</a>
+                <a class="list-group-item" href=""> Logo Perkindo</a>
+                <a class="list-group-item" href=""> Akreditasi Perkindo</a>
+                <a class="list-group-item" href=""> LSBU - PT. Serbujakons</a>
+                <a class="list-group-item" href=""> PERTAHKINDO</a>
+                <a class="list-group-item" href=""> LSP- PT Pertakonas</a>
+            </div>
+        </div>
+
+        <div id="popover-keanggotaan" class="d-none">
+            <div class="list-group list-group-flush">
+                <a class="list-group-item" href="">Syarat-syarat Anggota</a>
+                <a class="list-group-item" href="">Peta Sebaran Anggota</a>
+                <a class="list-group-item" href="">Grafik Jumlah Anggota Tahunan</a>
+                <a class="list-group-item" href="">Grafik Jumlah Anggota Per Provinsi</a>
+                <a class="list-group-item" href="">Grafik Anggota SBU JK dan MJK</a>
+                <a class="list-group-item" href="">Scan QR Anggota</a>
+            </div>
+        </div>
+
+        <div id="popover-sertifikasi" class="d-none">
+            <div class="list-group list-group-flush">
+                <a class="list-group-item" href="">Sertifikasi Badan Usaha Jasa Konstruksi</a>
+                <a class="list-group-item" href="">Sertifikasi Badan Usaha Non Jasa Konstruksi</a>
+                <a class="list-group-item" href="">Sertifikasi Usaha Jasa Konsultan Perorangan</a>
+            </div>
+        </div>
+        <div id="popover-bisnis" class="d-none">
+            <h6>Konsultan Konstruksi</h6>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item" href=""> a. Infrastruktur</a>
+                <a class="list-group-item" href=""> b. Properti</a>
+                <a class="list-group-item" href=""> c. Arsitektur</a>
+                <a class="list-group-item" href=""> d. Industri</a>
+                <a class="list-group-item" href=""> e. Tambang</a>
+                <a class="list-group-item" href=""> f. Survey </a>
+            </div>
+            <br />
+            <h6>Konsultan Non Konstruksi</h6>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item" href=""> a. Financial</a>
+                <a class="list-group-item" href=""> b. Ekonomi</a>
+                <a class="list-group-item" href="">c. Teknologi Informasi</a>
+                <a class="list-group-item" href="">d. Komunikasi</a>
+                <a class="list-group-item" href="">e. Sosial Lingkungan</a>
+                <a class="list-group-item" href="">f. Pemberdayaan</a>
+                <a class="list-group-item" href="">g. Kelembagaan dan Hukum</a>
+            </div>
+        </div>
+        <!-- END Popover Content -->
+
         <!--   Core JS Files   -->
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            // up to date year
+            const currentYear = new Date().getFullYear();
+            const yearContainer = document.getElementById("current-year");
+            yearContainer.innerHTML = currentYear;
+
+            // popover setup
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            const popoverList = [...popoverTriggerList].map((popoverTriggerEl) => {
+                let opts = {
+                    animation: true,
+                    trigger: "click",
+                };
+
+                if (popoverTriggerEl.hasAttribute("data-bs-content-id")) {
+                    opts.content = document.getElementById(popoverTriggerEl.getAttribute("data-bs-content-id")).innerHTML;
+                    opts.html = true;
+                    opts.customClass = "llll";
+                }
+
+                return new bootstrap.Popover(popoverTriggerEl, opts);
+            });
+        </script>
     </body>
 </html>

@@ -88,6 +88,10 @@
     color: white !important;
 }
 
+.__navbar-nav .dropdown-item {
+    font-size: calc(0.3rem + 1.4vw);
+}
+
 .__nav-title {
     background: rgba(0, 8, 255, 0.5);
     padding: 10px 20px;
@@ -110,6 +114,10 @@
 @media (min-width: 992px) {
     .__navbar-nav .nav-link {
         color: black;
+        font-size: calc(0.1rem + 0.8vw);
+    }
+
+    .__navbar-nav .dropdown-item {
         font-size: calc(0.1rem + 0.8vw);
     }
 

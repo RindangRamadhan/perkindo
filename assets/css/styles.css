@@ -91,14 +91,14 @@
 
 .__nav-text-title {
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: calc(0.5rem + 1vw);
   font-weight: bold;
   letter-spacing: 0.5rem;
 }
 
 .__nav-text-subtitle {
   margin-bottom: 0;
-  font-size: 0.75rem;
+  font-size: calc(0.1rem + 0.8vw);
   text-transform: uppercase;
 }
 

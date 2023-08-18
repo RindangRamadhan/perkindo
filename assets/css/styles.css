@@ -74,7 +74,7 @@
 
 .__navbar-nav .nav-link {
     color: black;
-    font-size: calc(0.1rem + 0.8vw);
+    font-size: calc(0.3rem + 1.4vw);
 }
 
 .__navbar-nav > .active-link .nav-link {
@@ -102,6 +102,13 @@
     margin-bottom: 0;
     font-size: calc(0.1rem + 0.8vw);
     text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    .__navbar-nav .nav-link {
+        color: black;
+        font-size: calc(0.1rem + 0.8vw);
+    }
 }
 
 /* .__nav-search {

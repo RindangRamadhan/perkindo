@@ -15,73 +15,125 @@
 
     <body>
         <!-- BEGIN Navbar -->
-        <nav class="navbar navbar-expand-lg p-0">
-            <div class="container-fluid p-0">
-                <a class="navbar-brand mx-3" href="#">
+        <nav class="navbar navbar-expand-md navbar-light p-0">
+          <div class="container-fluid pe-0">
+              <a class="navbar-brand __navbar-brand" href="#" target="_blank">
+                <img class="img-fluid" src="./assets/img/perkindo.png" alt="Perkindo" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <a class="navbar-brand __navbar-brand" href="#" target="_blank">
                     <img class="img-fluid" src="./assets/img/perkindo.png" alt="Perkindo" />
-                </a>
-                <button class="navbar-toggler mx-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end flex-lg-row" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-                    <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 p-2" style="background: rgba(0, 8, 255, 0.5); height: 116px">
-                        <img class="img-fluid" src="./assets/img/perkindo.org.png" alt="Perkindo" />
-                        <span class="text-center text-uppercase fs-6 text-dark" style="font-size: calc(1px + 0.8vw) !important"><span class="font-weight-bold">cinta</span> (collaboartion, innovation, networking, trust, awarness)</span>
-                    </div>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-grow-1 justify-content-around align-items-center p-2" style="background: rgba(255, 111, 0, 0.8); height: 116px">
-                        <li class="nav-item active-link">
-                            <a class="nav-link font-weight-bold p-0 px-1" href="#">Beranda</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link font-weight-bold p-0 px-1" href="#">Organisasi</a>
-                        </li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold p-0 px-1" href="#">Organisasi</a>
-                            <!-- <a class="nav-link dropdown-toggle" href="#"> ORGANISASI </a> -->
-                            <ul class="dropdown-menu">
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusall">Dewan Pengurus Pusat</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pengawas</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Kehormatan</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pakar</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Majelis Mandiri</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusd">Dewan Pengurus Daerah</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSBU- PT. Serbujakons</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSP - PT. Pertahkindo</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold p-0 px-1" href="#">Mitra</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold p-0 px-1" href="#">Kegiatan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold p-0 px-1" href="#">Proyek Lowongan</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 px-3 justify-content-around align-items-center" style="background: #66b653; height: 116px">
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold p-0" href="#">Register</a>
-                        </li>
-                    </ul>
-                    <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 p-2" style="background: #90c5b5; height: 116px">
-                        <form class="d-flex flex-row align-items-center bg-white rounded">
-                            <input type="text" class="form-control border-0 text-center" placeholder="Pencarian" />
-                            <button type="submit" class="btn btn-light btn-just-icon">
-                                <i class="bi bi-search"></i>
-                            </button>
-                        </form>
-                        <div class="mt-1">
-                            <img src="./assets/img/facebook 1.png" alt="facebook" />
-                            <img src="./assets/img/instagram 1.png" alt="instagram" />
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center align-items-center flex-grow-1 p-2" style="background: #dadbfc; height: 116px">
-                        <img class="p-1" src="./assets/img/1607473002 1.png" alt="english" />
-                        <img class="p-1" src="./assets/img/bendera-merah-putih 1.png" alt="indonesia" />
-                    </div>
+                  </a>                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-            </div>
+                <div class="offcanvas-body">
+                  <div class="d-flex flex-column align-items-center __nav-title">
+                    <p class="__nav-text-title">PERKINDO.ORG</p>
+                    <p class="__nav-text-subtitle">cinta (collaboartion, innovation, networking, trust, awarness)</p>
+                  </div>
+                  <ul class="navbar-nav __navbar-nav d-flex align-items-center">
+                      <li class="nav-item active-link">
+                          <a class="nav-link" href="#">BERANDA</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              ORGANISASI
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusall">Dewan Pengurus Pusat</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pengawas</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Kehormatan</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pakar</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Majelis Mandiri</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusd">Dewan Pengurus Daerah</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSBU- PT. Serbujakons</a></li>
+                              <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSP - PT. Pertahkindo</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              MITRA
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Lembaga Pemerintah</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Badan Usaha Perkindo</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Badan Usaha Swasta</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Vendor</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Badan Usaha Milik Negara</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Perguruan Tinggi</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Asosiasi Terkait</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">Lembaga Donor</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/coming">NGO/LSM</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="shop.html" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              KEGIATAN
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/proker1">Program Kerja </a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/agenda2">Kalender Perkindo</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/dinasall">Berita Perkindo</a>
+                              </li>
+                              <li class="dropdown">
+                                  <a class="dropdown-item" href="https://perkindo.org/pengumumanall">Pengumuman</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="https://perkindo.org/coming">PROYEK LOWONGAN</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">REGISTER</a>
+                      </li>
+                  </ul>
+                  <div class="d-flex flex-column align-items-center __nav-search">
+                    <form class="d-flex flex-row align-items-center bg-white rounded">
+                      <input type="text" class="form-control border-0 text-center" placeholder="Pencarian" />
+                      <button type="submit" class="btn btn-light btn-just-icon">
+                        <i class="bi bi-search"></i>
+                      </button>
+                    </form>
+
+                    <section>
+                      <img src="./assets/img/facebook 1.png" alt="facebook" />
+                      <img src="./assets/img/instagram 1.png" alt="instagram" />
+                    </section>
+                  </div>
+
+                  <div class="d-flex align-items-center __lang">
+                    <img class="m-auto" src="./assets/img/1607473002 1.png" alt="english" />
+                      <img class="m-auto" src="./assets/img/bendera-merah-putih 1.png" alt="indonesia" />
+                  </div>
+                </div>
+              </div>
+          </div>
         </nav>
         <!-- END Navbar -->
 
@@ -95,31 +147,9 @@
                                 <div class="d-flex flex-column justify-content-center align-items-center p-1 h-100" style="background: rgba(102, 182, 83, 0.5)">
                                     <div class="text-light">Iklan <span class="fw-bold">Badan Usaha</span></div>
                                     <!-- <div>
-                                        <img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="height: 44px; width: 196px" />
-                                        <img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="height: 44px; width: 252px" />
-                                        <img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="height: 44px; width: 65px" />
-                                        <img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="height: 44px; width: 275px" />
-                                        <img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="height: 44px; width: 196px" />
                                     </div> -->
                                     <div class="custom-slider">
                                         <div class="custom-slide-track2">
-                                            <!-- <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
-
-                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
-                                            
-                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
-                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div> -->
                                             <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
                                             <div class="custom-slide"><img class="img-fluid" src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px" /></div>
                                             <div class="custom-slide"><img class="img-fluid" src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px" /></div>
@@ -159,19 +189,19 @@
                                     <button type="button" data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active slider-500" style="height: 500px;">
                                         <a href="#">
-                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100 m-auto"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item slider-500" style="height: 500px;">
                                         <a href="#">
-                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100 m-auto"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item slider-500" style="height: 500px;">
                                         <a href="#">
-                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100 m-auto"/>
                                         </a>
                                     </div>
                                 </div>
@@ -193,19 +223,19 @@
                                     <button type="button" data-bs-target="#slider2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide2.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide2.png" class="d-block w-100"/>
                                         </a>
                                     </div>
                                 </div>
@@ -225,19 +255,19 @@
                                     <button type="button" data-bs-target="#slider3" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide3.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide3.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide3.png" class="d-block w-100"/>
                                         </a>
                                     </div>
                                 </div>
@@ -259,19 +289,19 @@
                                     <button type="button" data-bs-target="#slider4" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide4.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide4.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide4.png" class="d-block w-100"/>
                                         </a>
                                     </div>
                                 </div>
@@ -291,19 +321,19 @@
                                     <button type="button" data-bs-target="#slider5" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide6.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide6.png" class="d-block w-100"/>
                                         </a>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" class="slider-250" style="height: 250px">
                                         <a href="#">
-                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                            <img src="./assets/img/slide6.png" class="d-block w-100"/>
                                         </a>
                                     </div>
                                 </div>
@@ -858,7 +888,10 @@
         <!-- END Popover Content -->
 
         <!--   Core JS Files   -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/jquery-match-height.js"></script>
+
 
         <script>
             // up to date year
@@ -881,6 +914,16 @@
                 }
 
                 return new bootstrap.Popover(popoverTriggerEl, opts);
+            });
+
+            $(document).ready(function(){
+              $('.slider-250').matchHeight();
+              $('.slider-500').matchHeight();
+
+              $(".dropdown").hover(function(){
+                $(this).find('.dropdown-menu').toggleClass('show');
+              });
+
             });
         </script>
     </body>

@@ -1,5 +1,5 @@
 /* custom style for navbar */
-.navbar > div.container-fluid > .navbar-brand {
+/* .navbar > div.container-fluid > .navbar-brand {
     height: initial !important;
 }
 
@@ -55,7 +55,72 @@
 
 .navbar .form-inline .form-control {
     background-image: none !important;
+} */
+
+.__navbar-brand {
+  text-align: center;
 }
+
+.__navbar-brand img {
+  width: 70%;
+}
+
+.__navbar-nav {
+  white-space: nowrap;
+  background: rgba(255, 111, 0, 0.80);
+  padding: 10px 20px;
+  vertical-align: middle;
+}
+
+.__navbar-nav > .active-link {
+  border-bottom: 2px solid white;
+}
+
+.__navbar-nav > .active-link .nav-link {
+  color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
+
+.__nav-title {
+  background: rgba(0, 8, 255, 0.50);
+  padding: 10px 20px;
+}
+
+.__nav-text-title {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+.__nav-text-subtitle {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.__nav-search {
+  background: #66b653;
+  padding: 10px 20px;
+}
+
+.__nav-search form {
+  margin-bottom: 10px;
+}
+
+.__lang {
+  background: #dadbfc;
+}
+
+.__lang img {
+  background: #dadbfc;
+  width: 30% !important;
+  cursor: pointer;
+}
+
 
 /* custom style for header */
 .container-overlay {

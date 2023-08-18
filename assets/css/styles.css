@@ -93,21 +93,39 @@
 
 .__nav-text-title {
     margin-bottom: 0;
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(0.7rem + 1.5vw);
     font-weight: bold;
     letter-spacing: 0.5rem;
 }
 
 .__nav-text-subtitle {
     margin-bottom: 0;
-    font-size: calc(0.1rem + 0.8vw);
+    font-size: calc(0.1rem + 1.3vw);
     text-transform: uppercase;
 }
 
+/* BS lg breakpoint */
 @media (min-width: 992px) {
     .__navbar-nav .nav-link {
         color: black;
         font-size: calc(0.1rem + 0.8vw);
+    }
+
+    .__nav-text-title {
+        margin-bottom: 0;
+        font-size: calc(0.5rem + 1vw);
+        font-weight: bold;
+        letter-spacing: 0.5rem;
+    }
+    
+    .__nav-text-subtitle {
+        margin-bottom: 0;
+        font-size: calc(0.1rem + 0.8vw);
+        text-transform: uppercase;
+    }
+
+    .__nav-search input {
+        font-size: calc(0.1rem + 0.5vw);
     }
 }
 

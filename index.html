@@ -26,14 +26,28 @@
                 <div class="offcanvas offcanvas-end flex-lg-row" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                     <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1 p-2" style="background: rgba(0, 8, 255, 0.5); height: 116px">
                         <img class="img-fluid" src="./assets/img/perkindo.org.png" alt="Perkindo" />
-                        <span class="text-center text-uppercase fs-6 text-dark" style="font-size: calc(1px + 0.8vw) !important;"><span class="font-weight-bold">cinta</span> (collaboartion, innovation, networking, trust, awarness)</span>
+                        <span class="text-center text-uppercase fs-6 text-dark" style="font-size: calc(1px + 0.8vw) !important"><span class="font-weight-bold">cinta</span> (collaboartion, innovation, networking, trust, awarness)</span>
                     </div>
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-grow-1 justify-content-around align-items-center p-2" style="background: rgba(255, 111, 0, 0.8); height: 116px">
                         <li class="nav-item active-link">
                             <a class="nav-link font-weight-bold p-0 px-1" href="#">Beranda</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link font-weight-bold p-0 px-1" href="#">Organisasi</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle font-weight-bold p-0 px-1" href="#">Organisasi</a>
+                            <!-- <a class="nav-link dropdown-toggle" href="#"> ORGANISASI </a> -->
+                            <ul class="dropdown-menu">
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusall">Dewan Pengurus Pusat</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pengawas</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Kehormatan</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Dewan Pakar</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">Majelis Mandiri</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/pengurusd">Dewan Pengurus Daerah</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSBU- PT. Serbujakons</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="https://perkindo.org/coming">LSP - PT. Pertahkindo</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold p-0 px-1" href="#">Mitra</a>
@@ -73,171 +87,236 @@
 
         <!-- BEGIN Header -->
         <div class="container-fluid">
-            <div class="row row-cols-1 row-cols-lg-3">
-                <div class="col p-0">
-                    <div id="slider1" class="carousel slide p-0" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="row">
+                <div class="col p-0 container-overlay">
+                    <div class="content-overlay" style="top: initial">
+                        <div class="row" style="height: 12vh">
+                            <div class="col-lg-7 px-0">
+                                <div class="d-flex flex-column justify-content-center align-items-center p-1 h-100" style="background: rgba(102, 182, 83, 0.5)">
+                                    <div class="text-light">Iklan <span class="fw-bold">Badan Usaha</span></div>
+                                    <!-- <div>
+                                        <img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="height: 44px; width: 196px" />
+                                        <img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="height: 44px; width: 252px" />
+                                        <img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="height: 44px; width: 65px" />
+                                        <img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="height: 44px; width: 275px" />
+                                        <img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="height: 44px; width: 196px" />
+                                    </div> -->
+                                    <div class="custom-slider">
+                                        <div class="custom-slide-track2">
+                                            <!-- <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
+
+                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
+                                            
+                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px; max-width: 252px; height: calc(44px + 1vw); width: calc(252px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px; max-width: 65px; height: calc(44px + 1vw); width: calc(65px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px; max-width: 275px; height: calc(44px + 1vw); width: calc(275px + 1vw);" /></div>
+                                            <div class="custom-slide"><img src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px; max-width: 196px; height: calc(44px + 1vw); width: calc(196px + 1vw);" /></div> -->
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/6adbd3ee6cd9a021567a40a79e95d35e.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/0be08d5fa05cd875b249d7e4de4c8995.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/26341f3dab80f6d0221807772a22e1c5.jpeg" style="max-height: 44px" /></div>
+                                            <div class="custom-slide"><img class="img-fluid" src="./assets/img/1ee170f48e7d535be7585e72a1c8f740.jpeg" style="max-height: 44px" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 px-0">
+                                <div class="d-flex align-items-end h-100">
+                                    <div class="fs-3 text-center w-100" style="background: rgba(102, 182, 83, 0.5)">
+                                        <a href="#" class="text-light text-decoration-none"> <span class="fw-bold">SIAP (</span>SISTEM INFORMASI ANGGOTA PERKINDO<span class="fw-bold">)</span> </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#">
-                                    <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
-                                </a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
-                </div>
-                <div class="col p-0 d-none d-lg-block">
-                    <div id="slider2" class="carousel slide p-0" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#slider2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#slider2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#">
-                                    <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slider2" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slider2" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div id="slider3" class="carousel slide p-0" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#slider3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#slider3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#">
-                                    <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
+                    <div class="row row-cols-1 row-cols-lg-3 m-0">
+                        <div class="col p-0">
+                            <div id="slider1" class="carousel slide p-0" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#">
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide1 2.png" class="d-block w-100" alt="..." style="height: 566px" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slider3" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slider3" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col p-0 d-none d-lg-block">
-                    <div id="slider4" class="carousel slide p-0" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#slider4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#slider4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <div class="col p-0 d-none d-lg-block">
+                            <div id="slider2" class="carousel slide p-0" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#">
+                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide2.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div id="slider3" class="carousel slide p-0" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#">
+                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide3.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#">
-                                    <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
+                        <div class="col p-0 d-none d-lg-block">
+                            <div id="slider4" class="carousel slide p-0" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#">
+                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide4.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
+                            <div id="slider5" class="carousel slide p-0" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#slider5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#slider5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#slider5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="#">
+                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="#">
+                                            <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#slider5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#slider5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slider4" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slider4" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                    <div id="slider5" class="carousel slide p-0" data-bs-ride="true">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#slider5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#slider5" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#slider5" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="#">
-                                    <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#">
-                                    <img src="./assets/img/slide6.png" class="d-block w-100" alt="..." style="height: 283px" />
-                                </a>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slider5" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#slider5" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
                     </div>
                 </div>
             </div>
@@ -555,11 +634,11 @@
         </div>
         <!-- END News -->
 
-        <!-- BEGIN BSI Pic -->
+        <!-- BEGIN Big Banner -->
         <div class="container-fluid my-5 text-center">
-            <img class="img-fluid" src="./assets/img/bsi homepage.png" alt="bsi home" />
+            <img class="img-fluid" src="./assets/img/1774x645.png" alt="bsi home" />
         </div>
-        <!-- END BSI Pic -->
+        <!-- END Big Banner -->
 
         <!-- BEGIN Peulang Tender & Mitra Kerja -->
         <div class="container-fluid mb-3">

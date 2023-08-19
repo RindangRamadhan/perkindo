@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How to change font size depending on width of container?</title>
+        <style>
+            .container {
+                margin: auto;
+                width: 500px;
+                border: 1px solid red;
+            }
+            .container p {
+                font-size: calc(3em + 100%);
+                white-space: nowrap;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>How to change font size depending on width of container?</h4>
+        <div class="container">
+            <p>
+                This is some text.
+                <br />
+                This is some more text.
+                <br />
+                This is some more more text.
+            </p>
+        </div>
+    </body>
+</html>

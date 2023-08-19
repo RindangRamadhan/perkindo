@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 /* custom style for navbar */
@@ -103,22 +103,22 @@ body {
 }
 
 /* custom style for card slider anggota */
-.card-slider-subtitle {
-  color: #000000;
-  text-align: center;
-  font-size: 33px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 10px;
+.card-slider-title {
+    color: #18405b;
+    text-align: center;
+    font-size: calc(1rem + 8vw);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 129px;
 }
 
-.card-slider-title {
-  color: #18405B;
-  text-align: center;
-  font-size: 86px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 129px;
+.card-slider-subtitle {
+    color: #000000;
+    text-align: center;
+    font-size: calc(0.1rem + 4vw);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
 }
 
 .card-slider-image-subtitle {
@@ -196,7 +196,7 @@ body {
 .ptmk-entry {
     font-size: calc(0.1rem + 2vw);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 /* custom style for footer */
@@ -239,6 +239,14 @@ body {
     }
 
     /* for slider anggota */
+    .card-slider-title {
+        font-size: calc(2.3rem + 3.3vw);
+    }
+
+    .card-slider-subtitle {
+        font-size: calc(0.1rem + 2vw);
+    }
+
     .card-slider-image-subtitle {
         font-size: calc(0.7rem + 0.1vw);
     }
@@ -249,9 +257,9 @@ body {
     }
 
     .ptmk-entry {
-      font-size: calc(0.3rem + 1vw);
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      font-family: 'Poppins';
+        font-size: calc(0.3rem + 1vw);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Poppins";
     }
 
     /* for footer */
@@ -271,24 +279,24 @@ body {
 
 @media screen and (max-width: 768px) {
     .offcanvas-body {
-      padding: 0;
+        padding: 0;
     }
 
     .offcanvas-body ul {
-      align-items: start !important;
+        align-items: start !important;
     }
 
     .offcanvas-body ul > li {
-      margin-bottom:5px;
+        margin-bottom: 5px;
     }
 
     .__navbar-nav .nav-link {
-      color: black;
-      font-size: calc(1rem);
+        color: black;
+        font-size: calc(1rem);
     }
-    
+
     .__navbar-nav .dropdown-item {
-      font-size: calc(0.75rem);
+        font-size: calc(0.75rem);
     }
 
     .custom-slide-track2 {
@@ -296,7 +304,7 @@ body {
     }
 
     .header-popover-container h1 {
-      font-size: calc(1.5rem + 1vw);
+        font-size: calc(1.5rem + 1vw);
     }
 
     .custom-slide {

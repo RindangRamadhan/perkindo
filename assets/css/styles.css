@@ -246,6 +246,15 @@
     }
 }
 
+/* custom style for Peulang Tender & Mitra Kerja */
+.ptmk-title {
+    font-size: calc(1rem + 1vw);
+}
+
+.ptmk-entry {
+    font-size: calc(0.1rem + 2vw)
+}
+
 /* custom style for footer */
 .footer-img {
     height: calc(5rem + 5vw);
@@ -261,7 +270,7 @@
 }
 
 .footer-copyright {
-    font-size: calc(0.3rem + 1vw)
+    font-size: calc(0.3rem + 1vw);
 }
 
 /* BS lg breakpoint */
@@ -301,6 +310,15 @@
     /* for slider anggota */
     .card-slider-image-subtitle {
         font-size: calc(0.7rem + 0.1vw);
+    }
+
+    /* for Peulang Tender & Mitra Kerja */
+    .ptmk-title {
+        font-size: calc(0.3rem + 1vw);
+    }
+
+    .ptmk-entry {
+        font-size: calc(0.1rem + 1vw)
     }
 
     /* for footer */

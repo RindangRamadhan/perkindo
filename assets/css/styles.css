@@ -246,6 +246,24 @@
     }
 }
 
+/* custom style for footer */
+.footer-img {
+    height: calc(5rem + 5vw);
+    width: auto;
+}
+
+.footer-contact-us {
+    font-size: calc(1.3rem + 0.8vw);
+}
+
+.footer-detail-text {
+    font-size: calc(0.5rem + 0.8vw);
+}
+
+.footer-copyright {
+    font-size: calc(0.3rem + 1vw)
+}
+
 /* BS lg breakpoint */
 @media (min-width: 992px) {
     /* for navbar */
@@ -283,6 +301,20 @@
     /* for slider anggota */
     .card-slider-image-subtitle {
         font-size: calc(0.7rem + 0.1vw);
+    }
+
+    /* for footer */
+    .footer-img {
+        height: calc(0.3rem + 5vw);
+        width: auto;
+    }
+
+    .footer-detail-text {
+        font-size: calc(0.1rem + 0.6vw);
+    }
+
+    .footer-copyright {
+        font-size: calc(0.1rem + 0.6vw);
     }
 }
 

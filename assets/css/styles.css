@@ -109,7 +109,7 @@ body {
     font-size: calc(1rem + 8vw);
     font-style: normal;
     font-weight: 900;
-    line-height: 129px;
+    line-height: calc(1rem + 8vw);
 }
 
 .card-slider-subtitle {
@@ -119,6 +119,12 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: 10px;
+}
+
+.card-slider-desc {
+    text-align: center;
+    color: #666;
+    font-size: calc(0.6rem + 1vw);
 }
 
 .card-slider-image-subtitle {
@@ -245,6 +251,11 @@ body {
 
     .card-slider-subtitle {
         font-size: calc(0.1rem + 2vw);
+    }
+
+    .card-slider-desc {
+        text-align: justify;
+        font-size: calc(0.5rem + 0.5vw);
     }
 
     .card-slider-image-subtitle {

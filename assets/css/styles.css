@@ -1,68 +1,10 @@
+body {
+  font-family: 'Poppins';
+}
+
 /* custom style for navbar */
-/* .navbar > div.container-fluid > .navbar-brand {
-    height: initial !important;
-}
-
-.navbar ul.navbar-nav > .nav-item {
-    white-space: nowrap !important;
-    font-size: calc(1px + 0.7vw);
-}
-
-.navbar .nav-item .dropdown-menu {
-    position: absolute;
-    left: 0;
-    top: 120%;
-    font-size: 15px;
-    color: #212121;
-    background-color: #fff;
-    border: none;
-    border-radius: 0px;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
-    min-width: 220px;
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    padding: 0;
-    pointer-events: none;
-    transition: all 200ms linear;
-}
-
-.navbar .nav-item:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    display: block;
-}
-
-.navbar .nav-item .dropdown-menu .dropdown-item {
-    padding: 7px 15px;
-    transition: all 300ms linear;
-    font-weight: 600;
-    font-family: "Fira Sans", sans-serif;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-}
-
-.navbar ul.navbar-nav > .active-link {
-    border-bottom: 2px solid #18405b;
-}
-
-.navbar .font-weight-bold {
-    font-weight: 1000 !important;
-}
-
-.navbar .form-inline {
-    flex-flow: row nowrap !important;
-}
-
-.navbar .form-inline .form-control {
-    background-image: none !important;
-} */
-
 .__navbar-brand {
     text-align: center;
-}
-
-.__navbar-brand img {
-    width: 70%;
 }
 
 .__navbar-nav {
@@ -106,8 +48,9 @@
 
 .__nav-text-subtitle {
     margin-bottom: 0;
-    font-size: calc(0.1rem + 1.3vw);
+    font-size: 12.3px;
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
 /* .__nav-search {
@@ -160,23 +103,22 @@
 }
 
 /* custom style for card slider anggota */
-.card-slider-title,
 .card-slider-subtitle {
-    text-align: center;
-    font-style: normal;
-    line-height: calc(30px + 1vw);
-    font-weight: 900;
+  color: #000000;
+  text-align: center;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 10px;
 }
 
 .card-slider-title {
-    color: #18405b;
-    /* font-size: 86px; */
-    font-size: calc(2.3rem + 1vw);
-}
-
-.card-slider-subtitle {
-    color: black;
-    font-size: calc(0.6rem + 1.5vw);
+  color: #18405B;
+  text-align: center;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 129px;
 }
 
 .card-slider-image-subtitle {
@@ -252,7 +194,9 @@
 }
 
 .ptmk-entry {
-    font-size: calc(0.1rem + 2vw)
+    font-size: calc(0.1rem + 2vw);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins';
 }
 
 /* custom style for footer */
@@ -285,19 +229,6 @@
         font-size: calc(0.1rem + 0.8vw);
     }
 
-    .__nav-text-title {
-        margin-bottom: 0;
-        font-size: calc(0.5rem + 1vw);
-        font-weight: bold;
-        letter-spacing: 0.5rem;
-    }
-
-    .__nav-text-subtitle {
-        margin-bottom: 0;
-        font-size: calc(0.1rem + 0.8vw);
-        text-transform: uppercase;
-    }
-
     .__nav-search input {
         font-size: calc(0.1rem + 0.5vw);
     }
@@ -318,7 +249,9 @@
     }
 
     .ptmk-entry {
-        font-size: calc(0.1rem + 1vw)
+      font-size: calc(0.3rem + 1vw);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: 'Poppins';
     }
 
     /* for footer */
@@ -337,8 +270,33 @@
 }
 
 @media screen and (max-width: 768px) {
+    .offcanvas-body {
+      padding: 0;
+    }
+
+    .offcanvas-body ul {
+      align-items: start !important;
+    }
+
+    .offcanvas-body ul > li {
+      margin-bottom:5px;
+    }
+
+    .__navbar-nav .nav-link {
+      color: black;
+      font-size: calc(1rem);
+    }
+    
+    .__navbar-nav .dropdown-item {
+      font-size: calc(0.75rem);
+    }
+
     .custom-slide-track2 {
         width: calc(80px * 15);
+    }
+
+    .header-popover-container h1 {
+      font-size: calc(1.5rem + 1vw);
     }
 
     .custom-slide {

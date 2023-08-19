@@ -171,12 +171,16 @@
 .card-slider-title {
     color: #18405b;
     /* font-size: 86px; */
-    font-size: calc(1rem + 3vw);
+    font-size: calc(2.3rem + 1vw);
 }
 
 .card-slider-subtitle {
     color: black;
-    font-size: calc(0.3rem + 1.5vw);
+    font-size: calc(0.6rem + 1.5vw);
+}
+
+.card-slider-image-subtitle {
+    font-size: calc(0.5rem + 1vw);
 }
 
 .horizontal-line {
@@ -274,6 +278,11 @@
     /* for header */
     .header-popover-container h1 {
         font-size: calc(1rem + 1vw);
+    }
+
+    /* for slider anggota */
+    .card-slider-image-subtitle {
+        font-size: calc(0.7rem + 0.1vw);
     }
 }
 

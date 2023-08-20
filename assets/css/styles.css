@@ -139,7 +139,6 @@ body {
 /* custom style for news */
 .img-zoom-hover img {
     transition: all 1s ease-in-out;
-    height: 347px;
     width: 100%;
 }
 .img-zoom-hover:hover img {

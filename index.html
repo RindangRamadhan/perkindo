@@ -850,6 +850,17 @@
         </div>
         <!-- END Footer -->
 
+        <!-- BEGIN Popover Header -->
+        <div id="popover-header" class="">
+            <div class="d-flex">
+                <div id="popover-title" class="flex-grow-1 w-100"></div>
+                <span class="d-lg-none">
+                    <i id="close-popover" class="bi bi-x-circle"></i>
+                </span>
+            </div>
+        </div>
+        <!-- END Popover Header -->
+
         <!-- BEGIN Popover Content -->
         <div id="popover-tentang-perkindo-content" class="d-none">
             <div class="list-group list-group-flush">
@@ -929,9 +940,14 @@
                 // popover setup
                 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
                 for (let popoverTriggerEl of Array.from(popoverTriggerList)) {
-                    let contentID = popoverTriggerEl.getAttribute("data-bs-content-id");
+                    const popoverHeader = $("#popover-header");
+                    const closeButton = $("#popover-header").find("#close-popover")[0];
+
+                    popoverHeader.find("#popover-title")[0].innerHTML = popoverTriggerEl.getAttribute("data-bs-title");
+                    const contentID = popoverTriggerEl.getAttribute("data-bs-content-id");
+
                     new bootstrap.Popover(popoverTriggerEl, {
-                        title: popoverTriggerEl.getAttribute("data-bs-title"),
+                        title: popoverHeader.html(),
                         placement: "top",
                         html: true,
                         trigger: "manual",
@@ -939,6 +955,10 @@
                     });
 
                     let selector = $(`[data-bs-content-id="${contentID}"]`);
+
+                    closeButton.click(function () {
+                        $(selector).popover("hide");
+                    });
 
                     $(selector).hover(function () {
                         if (!$(".popover-body").length) {

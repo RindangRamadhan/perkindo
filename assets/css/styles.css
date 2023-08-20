@@ -337,6 +337,54 @@ body {
         width: 80px;
     }
 
+    .ptmk-entry {
+      color: #FFF;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    .__kementrian {
+      font-size: calc(1rem + 2vw);
+    }
+
+    .__badan-lembaga {
+        font-size: calc(1rem + 2vw);
+    }
+
+    .__badan-lembaga span {
+        font-size: 33px !important;
+    }
+
+    .__bumn {
+      font-size: calc(2.5rem + 2vw);
+    }
+
+    .__donor {
+      font-size: calc(1rem + 2vw);
+    }
+    .__donor span {
+      font-size: calc(0.7rem + 2vw);
+    }
+
+    .__asosiasi {
+      font-size: calc(1rem + 2vw);
+    }
+
+    .__perguruan {
+      font-size: calc(1rem + 2vw);
+    }
+
+    .__peraturan {
+      font-size: calc(1rem + 2vw);
+    }
+
+    .__referensi {
+      font-size: calc(1rem + 2vw);
+    }
+
     @keyframes scroll2 {
         0% {
             transform: translateX(0px);
